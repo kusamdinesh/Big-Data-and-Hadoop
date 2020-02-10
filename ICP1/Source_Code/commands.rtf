@@ -1,0 +1,22 @@
+{\rtf1\ansi\ansicpg1252\cocoartf2511
+\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
+{\colortbl;\red255\green255\blue255;}
+{\*\expandedcolortbl;;}
+\margl1440\margr1440\vieww10800\viewh8400\viewkind0
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\partightenfactor0
+
+\f0\fs24 \cf0 1. hadoop fs -ls /user/clouera\
+\
+2. hadoop fs -mkdir /user/cloudera/ICP1\
+\
+3. hadoop fs -put /home/cloudera/Downloads/ICP1/word_list.txt /user/cloudera/ICP1\
+\
+4. hadoop fs -appedToFile /user/cloudera/Downloads/shakepeare.txt  /user/cloudera/ICP1/word_list.txt\
+\
+5. hadoop fs -cat /user/cloudera/ICP1/word_list.txt | head -n 5 > 1.txt\
+\
+6. hadoop fs -cat /user/cloudera/ICP1/word_list.txt | tail -5 > 2.txt\
+\
+7. cat 1.txt 2.txt > 3.txt\
+\
+8. hadoop fs -appendToFile merge.txt /user/cloudera/ICP1/final.txt}
