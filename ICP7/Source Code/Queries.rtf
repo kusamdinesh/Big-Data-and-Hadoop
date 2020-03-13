@@ -1,0 +1,79 @@
+{\rtf1\ansi\ansicpg1252\cocoartf2511
+\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fswiss\fcharset0 Helvetica;\f1\fnil\fcharset0 Menlo-Regular;}
+{\colortbl;\red255\green255\blue255;\red0\green0\blue0;}
+{\*\expandedcolortbl;;\csgray\c0;}
+\margl1440\margr1440\vieww10800\viewh8400\viewkind0
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\partightenfactor0
+
+\f0\fs24 \cf0 \
+Task 1:\
+\
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\partightenfactor0
+
+\f1\fs22 \cf2 \CocoaLigature0 create keyspace test with replication=\{'class':'SimpleStrategy', 'replication_factor':1\};\
+\
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\partightenfactor0
+use test;\
+\
+create table employee(ID int PRIMARY KEY, Name text, jobtitle text, hiredate Varchar);\
+\
+\
+Task 2:\
+\
+insert into employee(ID, Name, jobtitle, hiredate) values (1,'Dinesh','Tester','2016-01-11');\
+\
+insert into employee(ID, Name, jobtitle, hiredate) values (2,'Bhavaz','Programmer','2018-02-16');\
+\
+insert into employee(ID, Name, jobtitle, hiredate) values (3,'Gowtham','Analyst','2017-08-24');\
+\
+select * from employee;\
+\
+alter table employee add salary int;\
+\
+update employee set jobtitle = 'clerk' where id=2;\
+\
+update employee set salary = 100000 where id=1;\
+\
+update employee set salary = 200000 where id=2;\
+\
+update employee set salary = 300000 where id=3;\
+\
+select name, salary from employee where jobtitle='clerk' allow filtering;\
+\
+\
+Task 3:\
+\
+\
+insert into employee(id, name, jobtitle, hiredate, salary) values(4,'Ranjeeth','Carpenter','2000-02-18',500000);\
+\
+select name, jobtitle,salary,hiredate from employee where hiredate='2000-02-18' allow filtering;\
+\
+\
+Task 4:\
+\
+\
+\
+select name, salary from employee allow filtering;\
+\
+\
+\
+Task 5:\
+\
+\
+alter table employee add manager text;\
+\
+insert into employee(ID, name, salary, manager) values (5,'Kranti',45000,'yes');\
+\
+select name, salary, manager from employee where salary=45000 allow filtering;\
+\
+\
+\
+Bonus:\
+\
+\
+Task 2:\
+\
+\
+\
+\
+}
