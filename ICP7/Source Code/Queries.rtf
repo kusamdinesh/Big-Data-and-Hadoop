@@ -12,7 +12,6 @@ Task 1:\
 
 \f1\fs22 \cf2 \CocoaLigature0 create keyspace test with replication=\{'class':'SimpleStrategy', 'replication_factor':1\};\
 \
-\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\partightenfactor0
 use test;\
 \
 create table employee(ID int PRIMARY KEY, Name text, jobtitle text, hiredate Varchar);\
@@ -72,6 +71,26 @@ Bonus:\
 \
 \
 Task 2:\
+\
+create table emp(emp_id int primary key, department text, lastname text, years_with_company text, hiredate text, jobtitle text, salary int, manager_id int);\
+\
+copy emp(emp_id, department, lastname, years_with_company, hiredate, jobtitle, salary,manager_id) from '/Users/dineshkumar/Downloads/employee_entries.csv' with DELIMITER='|' and Header=true;\
+\
+select * from emp;\
+\
+\
+select emp_id, hiredate, jobtitle, salary from emp;\
+\
+\
+select emp_id, hiredate, jobtitle, salary from emp where jobtitle='teamlead' allow filtering;\
+\
+\
+select emp_id, hiredate from emp;\
+\
+\
+select emp_id, hiredate, jobtitle, salary from emp where lastname='Howard' allow filtering;\
+\
+\
 \
 \
 \
