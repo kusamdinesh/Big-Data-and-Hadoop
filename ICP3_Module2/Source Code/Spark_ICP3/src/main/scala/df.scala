@@ -25,10 +25,10 @@ object df {
       .format("csv")
       .option("header", "true") //reading the headers
       .option("mode", "DROPMALFORMED")
-      .load("\\Users\\dineshkumar\\Downloads\\survey.csv")
+      .load("/Users/dineshkumar/IdeaProjects/Module2_ICP2/project/survey.csv")
 
     //Save data to the ouput folder
-    df.write.format("csv").option("header","true").save("\\Users\\dineshkumar\\Documents\\GitHub\\Big-Data-and-Hadoop\\ICP3_Module2\\Source\\ Code\\Spark_ICP3")
+    df.write.format("csv").option("header","true").save("/Users/dineshkumar/IdeaProjects/Module2_ICP2/project/output")
 
 
     //Apply Union operation on the dataset and order the output by Country Name alphabetically.
@@ -100,7 +100,7 @@ object df {
       val  Gender = fields(2).toString
       (Country,state,Gender)
     }
-    val lines = sc.textFile("\\Users\\dineshkumar\\Downloads\\survey.csv")
+    val lines = sc.textFile("/Users/dineshkumar/IdeaProjects/Module2_ICP2/project/survey.csv")
     val rdd = lines.map(parseLine).toDF()
     println("")
     println("After ParseLine method : ")
@@ -109,3 +109,4 @@ object df {
 
   }
 }
+
