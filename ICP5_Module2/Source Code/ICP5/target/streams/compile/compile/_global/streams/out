@@ -1,0 +1,36 @@
+[0m[[0m[0mdebug[0m] [0m[0mAcquiring lock on file /Users/dineshkumar/IdeaProjects/Module2_ICP2/project/target/.sbt-compilation-infos/module2_icp2-compile/.sbt-idea-lock ...[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/dineshkumar/IdeaProjects/Module2_ICP2/src/main/scala/DFS.scala:1:12: object apache is not a member of package org[0m
+[0m[[0m[31merror[0m] [0m[0mimport org.apache.spark.{SparkConf, SparkContext}[0m
+[0m[[0m[31merror[0m] [0m[0m           ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/dineshkumar/IdeaProjects/Module2_ICP2/src/main/scala/DFS.scala:6:20: not found: type SparkConf[0m
+[0m[[0m[31merror[0m] [0m[0m    val conf = new SparkConf().setAppName("Depthfirst").setMaster("local[*]")[0m
+[0m[[0m[31merror[0m] [0m[0m                   ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/dineshkumar/IdeaProjects/Module2_ICP2/src/main/scala/DFS.scala:7:18: not found: type SparkContext[0m
+[0m[[0m[31merror[0m] [0m[0m    val sc = new SparkContext(conf)[0m
+[0m[[0m[31merror[0m] [0m[0m                 ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/dineshkumar/IdeaProjects/Module2_ICP2/src/main/scala/MergeSort.scala:1:12: object apache is not a member of package org[0m
+[0m[[0m[31merror[0m] [0m[0mimport org.apache.log4j.{Level, Logger}[0m
+[0m[[0m[31merror[0m] [0m[0m           ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/dineshkumar/IdeaProjects/Module2_ICP2/src/main/scala/MergeSort.scala:2:12: object apache is not a member of package org[0m
+[0m[[0m[31merror[0m] [0m[0mimport org.apache.spark._[0m
+[0m[[0m[31merror[0m] [0m[0m           ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/dineshkumar/IdeaProjects/Module2_ICP2/src/main/scala/MergeSort.scala:10:5: not found: value Logger[0m
+[0m[[0m[31merror[0m] [0m[0m    Logger.getLogger("org").setLevel(Level.ERROR)[0m
+[0m[[0m[31merror[0m] [0m[0m    ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/dineshkumar/IdeaProjects/Module2_ICP2/src/main/scala/MergeSort.scala:10:38: not found: value Level[0m
+[0m[[0m[31merror[0m] [0m[0m    Logger.getLogger("org").setLevel(Level.ERROR)[0m
+[0m[[0m[31merror[0m] [0m[0m                                     ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/dineshkumar/IdeaProjects/Module2_ICP2/src/main/scala/MergeSort.scala:11:5: not found: value Logger[0m
+[0m[[0m[31merror[0m] [0m[0m    Logger.getLogger("akka").setLevel(Level.ERROR)[0m
+[0m[[0m[31merror[0m] [0m[0m    ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/dineshkumar/IdeaProjects/Module2_ICP2/src/main/scala/MergeSort.scala:11:39: not found: value Level[0m
+[0m[[0m[31merror[0m] [0m[0m    Logger.getLogger("akka").setLevel(Level.ERROR)[0m
+[0m[[0m[31merror[0m] [0m[0m                                      ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/dineshkumar/IdeaProjects/Module2_ICP2/src/main/scala/MergeSort.scala:14:20: not found: type SparkConf[0m
+[0m[[0m[31merror[0m] [0m[0m    val conf = new SparkConf().setAppName("MergeSort").setMaster("local");[0m
+[0m[[0m[31merror[0m] [0m[0m                   ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/dineshkumar/IdeaProjects/Module2_ICP2/src/main/scala/MergeSort.scala:15:18: not found: type SparkContext[0m
+[0m[[0m[31merror[0m] [0m[0m    val sc = new SparkContext(conf);[0m
+[0m[[0m[31merror[0m] [0m[0m                 ^[0m
+[0m[[0m[31merror[0m] [0m[0m11 errors found[0m
+[0m[[0m[0mdebug[0m] [0m[0mReleasing lock on file /Users/dineshkumar/IdeaProjects/Module2_ICP2/project/target/.sbt-compilation-infos/module2_icp2-compile/.sbt-idea-lock.[0m

@@ -1,0 +1,43 @@
+[0m[[0m[0mdebug[0m] [0m[0m[watch] [module2_icp2 / Compile / run] Found inputs: /Users/dineshkumar/IdeaProjects/Module2_ICP2/*.{java,scala},/Users/dineshkumar/IdeaProjects/Module2_ICP2/src/main/java/**/*.{java,scala},/Users/dineshkumar/IdeaProjects/Module2_ICP2/src/main/resources/**/*,/Users/dineshkumar/IdeaProjects/Module2_ICP2/src/main/scala/**/*.{java,scala},/Users/dineshkumar/IdeaProjects/Module2_ICP2/src/main/scala-2.13/**/*.{java,scala}[0m
+[0m[[0m[0minfo[0m] [0m[0m1. Monitoring source files for module2_icp2/run...[0m
+[0m[[0m[0minfo[0m] [0m[0m   Press <enter> to interrupt or '?' for more options.[0m
+[0m[[0m[0mdebug[0m] [0m[0mmodule2_icp2 / Compile / run - Accepted event for /Users/dineshkumar/IdeaProjects/Module2_ICP2/src/main/scala/DFS.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived Creation(/Users/dineshkumar/IdeaProjects/Module2_ICP2/src/main/scala/DFS.scala,FileAttributes(isDirectory = false, isOther = false,isRegularFile = true, isSymbolicLink = false))[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived event for path /Users/dineshkumar/IdeaProjects/Module2_ICP2/src/main/scala/DFS.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived event for path /Users/dineshkumar/IdeaProjects/Module2_ICP2/src/main/scala/DFS.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived file event actions: /Users/dineshkumar/IdeaProjects/Module2_ICP2/src/main/scala/DFS.scala -> Trigger. Returning: (Creation(/Users/dineshkumar/IdeaProjects/Module2_ICP2/src/main/scala/DFS.scala, 2020-Apr-04 14:57:15.238 CT),Trigger)[0m
+[0m[[0m[0minfo[0m] [0m[0mBuild triggered by /Users/dineshkumar/IdeaProjects/Module2_ICP2/src/main/scala/DFS.scala. Running 'run'.[0m
+[0m[[0m[0mdebug[0m] [0m[0m[watch] [debug] Received file event Trigger for Creation(/Users/dineshkumar/IdeaProjects/Module2_ICP2/src/main/scala/DFS.scala, 2020-Apr-04 14:57:15.238 CT).[0m
+[0m[[0m[0minfo[0m] [0m[0m2. Monitoring source files for module2_icp2/run...[0m
+[0m[[0m[0minfo[0m] [0m[0m   Press <enter> to interrupt or '?' for more options.[0m
+[0m[[0m[0mdebug[0m] [0m[0mmodule2_icp2 / Compile / run - Accepted event for /Users/dineshkumar/IdeaProjects/Module2_ICP2/src/main/scala/DFS.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived Update(/Users/dineshkumar/IdeaProjects/Module2_ICP2/src/main/scala/DFS.scala,FileAttributes(isDirectory = false, isOther = false,isRegularFile = true, isSymbolicLink = false),FileAttributes(isDirectory = false, isOther = false,isRegularFile = true, isSymbolicLink = false))[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived event for path /Users/dineshkumar/IdeaProjects/Module2_ICP2/src/main/scala/DFS.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived event for path /Users/dineshkumar/IdeaProjects/Module2_ICP2/src/main/scala/DFS.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mCreating update event for modified /Users/dineshkumar/IdeaProjects/Module2_ICP2/src/main/scala/DFS.scala (previous stamp: Hash(20f973fe97e2c0a87ed2caad4605e2d551bc7bba), current stamp: Hash(49317d68caef23f83bd2b59180851f51bee66777))[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived file event actions: /Users/dineshkumar/IdeaProjects/Module2_ICP2/src/main/scala/DFS.scala -> Trigger. Returning: (Update(/Users/dineshkumar/IdeaProjects/Module2_ICP2/src/main/scala/DFS.scala, 2020-Apr-04 14:57:52.018 CT),Trigger)[0m
+[0m[[0m[0minfo[0m] [0m[0mBuild triggered by /Users/dineshkumar/IdeaProjects/Module2_ICP2/src/main/scala/DFS.scala. Running 'run'.[0m
+[0m[[0m[0mdebug[0m] [0m[0m[watch] [debug] Received file event Trigger for Update(/Users/dineshkumar/IdeaProjects/Module2_ICP2/src/main/scala/DFS.scala, 2020-Apr-04 14:57:52.018 CT).[0m
+[0m[[0m[0minfo[0m] [0m[0m3. Monitoring source files for module2_icp2/run...[0m
+[0m[[0m[0minfo[0m] [0m[0m   Press <enter> to interrupt or '?' for more options.[0m
+[0m[[0m[0mdebug[0m] [0m[0mmodule2_icp2 / Compile / run - Accepted event for /Users/dineshkumar/IdeaProjects/Module2_ICP2/DFS.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived Deletion(/Users/dineshkumar/IdeaProjects/Module2_ICP2/DFS.scala,FileAttributes(isDirectory = false, isOther = false,isRegularFile = true, isSymbolicLink = false))[0m
+[0m[[0m[0mdebug[0m] [0m[0mQuarantining deletion event for path /Users/dineshkumar/IdeaProjects/Module2_ICP2/DFS.scala for 500 milliseconds[0m
+[0m[[0m[0mdebug[0m] [0m[0mTriggering event for previously quarantined deleted file: /Users/dineshkumar/IdeaProjects/Module2_ICP2/DFS.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mQuarantining deletion event for path /Users/dineshkumar/IdeaProjects/Module2_ICP2/DFS.scala for 500 milliseconds[0m
+[0m[[0m[0mdebug[0m] [0m[0mTriggering event for previously quarantined deleted file: /Users/dineshkumar/IdeaProjects/Module2_ICP2/DFS.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived file event actions: /Users/dineshkumar/IdeaProjects/Module2_ICP2/DFS.scala -> Trigger. Returning: (Deletion(/Users/dineshkumar/IdeaProjects/Module2_ICP2/DFS.scala, 2020-Apr-04 15:02:26.617 CT),Trigger)[0m
+[0m[[0m[0minfo[0m] [0m[0mBuild triggered by /Users/dineshkumar/IdeaProjects/Module2_ICP2/DFS.scala. Running 'run'.[0m
+[0m[[0m[0mdebug[0m] [0m[0m[watch] [debug] Received file event Trigger for Deletion(/Users/dineshkumar/IdeaProjects/Module2_ICP2/DFS.scala, 2020-Apr-04 15:02:26.617 CT).[0m
+[0m[[0m[0minfo[0m] [0m[0m4. Monitoring source files for module2_icp2/run...[0m
+[0m[[0m[0minfo[0m] [0m[0m   Press <enter> to interrupt or '?' for more options.[0m
+[0m[[0m[0mdebug[0m] [0m[0mmodule2_icp2 / Compile / run - Accepted event for /Users/dineshkumar/IdeaProjects/Module2_ICP2/src/main/scala/DFS.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived Update(/Users/dineshkumar/IdeaProjects/Module2_ICP2/src/main/scala/DFS.scala,FileAttributes(isDirectory = false, isOther = false,isRegularFile = true, isSymbolicLink = false),FileAttributes(isDirectory = false, isOther = false,isRegularFile = true, isSymbolicLink = false))[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived event for path /Users/dineshkumar/IdeaProjects/Module2_ICP2/src/main/scala/DFS.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mmodule2_icp2 / Compile / run - Accepted event for /Users/dineshkumar/IdeaProjects/Module2_ICP2/src/main/scala/MergeSort.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived event for path /Users/dineshkumar/IdeaProjects/Module2_ICP2/src/main/scala/DFS.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived Update(/Users/dineshkumar/IdeaProjects/Module2_ICP2/src/main/scala/MergeSort.scala,FileAttributes(isDirectory = false, isOther = false,isRegularFile = true, isSymbolicLink = false),FileAttributes(isDirectory = false, isOther = false,isRegularFile = true, isSymbolicLink = false))[0m
+[0m[[0m[0mdebug[0m] [0m[0mDropping event for unmodified path /Users/dineshkumar/IdeaProjects/Module2_ICP2/src/main/scala/DFS.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived event for path /Users/dineshkumar/IdeaProjects/Module2_ICP2/src/main/scala/MergeSort.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived event for path /Users/dineshkumar/IdeaProjects/Module2_ICP2/src/main/scala/MergeSort.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mDropping event for unmodified path /Users/dineshkumar/IdeaProjects/Module2_ICP2/src/main/scala/MergeSort.scala[0m
